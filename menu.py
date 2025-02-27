@@ -14,3 +14,4 @@ def menu(opcao):
 opcao = 5
 x = int(input("Digite em número: "))
 y = int(input("Digite outro número: "))
+menu(opcao)
