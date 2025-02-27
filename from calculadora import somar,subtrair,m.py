@@ -1,11 +1,9 @@
 from calculadora import somar,subtrair,multiplicar,dividir
 def menu(opcao):
     while opcao != 0:
-        opcao = int(input("1 - Somar\n2 - Subtrair\n0 - Sair\n"))
+        opcao = int(input("1 - Somar\n0 - Sair\n"))
         if opcao == 1:
             print("Soma entre {} e {} é {}".format(x,y,somar(x,y)))
-        elif opcao == 2:
-            print("Subtração entre {} e {} é {}".format(x,y,subtrair(x,y)))
     print("Obrigado por usar a calculadora")
 opcao = 5
 x = int(input("Digite em número: "))
